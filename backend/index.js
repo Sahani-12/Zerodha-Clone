@@ -22,7 +22,12 @@ const app = express();
 // Middleware Setup
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://zerodha-clone-delta-five.vercel.app", // Link 1
+      "https://zerodha-clone-v96i.vercel.app",
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -87,13 +92,11 @@ app.post("/login", async (req, res) => {
       httpOnly: false,
     });
 
-    res
-      .status(201)
-      .json({
-        message: "User logged in successfully",
-        success: true,
-        username: user.username,
-      });
+    res.status(201).json({
+      message: "User logged in successfully",
+      success: true,
+      username: user.username,
+    });
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Internal Server Error", success: false });
