@@ -29,7 +29,7 @@ const Login = () => {
 
       const { success, message } = data;
       if (success) {
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://zerodha-clone-delta-five.vercel.app";
       } else {
         alert(message);
       }

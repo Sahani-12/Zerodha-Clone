@@ -23,8 +23,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "http://localhost:3001",
+      "https://zerodha-clone-v96i.vercel.app",
+      "https://zerodha-clone-delta-five.vercel.app",
       "https://zerodha-clone-delta-five.vercel.app", // Link 1
       "https://zerodha-clone-v96i.vercel.app",
     ],
