@@ -13,7 +13,7 @@ function Team() {
       >
         <div className="col-lg-6 text-center">
           <img
-            src="media/images/nithinkamath.jpg"
+            src="media/images/nithinKamath.jpg"
             alt="Nithin Kamath"
             style={{ borderRadius: "100%", width: "50%" }}
           />
@@ -51,7 +51,7 @@ function Team() {
       <div className="row p-5">
         <div className="col-lg-4 text-center mb-5">
           <img
-            src="media/images/nikhil.jpg"
+            src="media/images/Nikhil.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
             alt="Nikhil Kamath"
           />
@@ -68,7 +68,7 @@ function Team() {
 
         <div className="col-lg-4 text-center mb-5">
           <img
-            src="media/images/kailash.jpg"
+            src="media/images/Kailash.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
             alt="Kailash Nadh"
           />
@@ -85,7 +85,7 @@ function Team() {
 
         <div className="col-lg-4 text-center mb-5">
           <img
-            src="media/images/venu.jpg"
+            src="media/images/Venu.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
             alt="Venu Madhav"
           />
@@ -102,7 +102,7 @@ function Team() {
 
         <div className="col-lg-4 text-center mb-5">
           <img
-            src="media/images/hanan.jpg"
+            src="media/images/Hanan.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
             alt="Hanan Delvi"
           />
@@ -119,7 +119,7 @@ function Team() {
 
         <div className="col-lg-4 text-center mb-5">
           <img
-            src="media/images/seema.jpg"
+            src="media/images/Seema.jpg"
             style={{ borderRadius: "100%", width: "50%" }}
             alt="Seema Patil"
           />
