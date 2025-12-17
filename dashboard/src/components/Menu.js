@@ -13,9 +13,12 @@ const Menu = () => {
   useEffect(() => {
     const verifyUser = async () => {
       try {
-        const { data } = await axios.get("http://localhost:3002/user", {
-          withCredentials: true,
-        });
+        const { data } = await axios.get(
+          "https://zerodha-d3n3.onrender.com/user",
+          {
+            withCredentials: true,
+          }
+        );
 
         if (data?.status && data?.username) {
           setUsername(data.username);
@@ -30,7 +33,7 @@ const Menu = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:3002/logout",
+        "https://zerodha-d3n3.onrender.com/logout",
         {},
         { withCredentials: true }
       );

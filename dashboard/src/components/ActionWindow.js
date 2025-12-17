@@ -14,11 +14,11 @@ const ActionWindow = ({ uid, mode }) => {
       return;
     }
 
-    await axios.post("http://localhost:3002/newOrder", {
+    await axios.post("https://zerodha-d3n3.onrender.com/newOrder", {
       name: uid,
       qty: Number(qty),
       price: Number(price),
-      mode, 
+      mode,
     });
 
     closeWindow();

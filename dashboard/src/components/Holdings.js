@@ -8,7 +8,9 @@ const Holdings = () => {
   useEffect(() => {
     // UPDATED: Added { withCredentials: true } for authentication
     axios
-      .get("http://localhost:3002/allHoldings", { withCredentials: true })
+      .get("https://zerodha-d3n3.onrender.com/allHoldings", {
+        withCredentials: true,
+      })
       .then((res) => {
         setAllHoldings(res.data);
       })
