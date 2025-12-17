@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar-nav .nav-link {
+  color: #666 !important;
+  font-weight: 500;
+  margin-right: 20px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #387ed1 !important;
+}
+.navbar-nav .nav-link.active {
+  color: #387ed1 !important;
+}
+
+.btn-primary {
+  background-color: #387ed1;
+  border-color: #387ed1;
+}
+
+.btn-primary:hover {
+  background-color: #387ed1;
+  color: white;
+}
+footer a:hover {
+  color: #387ed1 !important;
+  transition: all 0.2s;
+}
+
+footer .fa-brands:hover {
+  color: #333 !important;
+}
+
+body {
+  padding-top: 75px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+#supportWrapper a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+#supportHero a {
+  color: white;
+  margin-right: 20px;
+}
+
+#supportHero a:hover {
+  color: white;
+}
+
+#supportHero input {
+  height: 50px;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+#supportHero ol li a {
+  text-decoration: underline;
+}
