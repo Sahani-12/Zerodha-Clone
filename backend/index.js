@@ -127,6 +127,7 @@ app.post("/logout", (req, res) => {
     expires: new Date(0),
     secure: true,
     sameSite: "none",
+    
   });
 
   res
